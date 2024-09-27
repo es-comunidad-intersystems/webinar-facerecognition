@@ -1,5 +1,5 @@
 # Introduccion
-Desde su version 2024.1 se incluye en InterSystems IRIS Data Platform. Que es una nueva y poderosa función que le permite agregar fácilmente funciones de búsqueda semántica e inteligencia artificial generativa a sus aplicaciones. Vector Search le permite consultar sus datos en función de la semántica o el significado de los datos en lugar de los datos en sí. A continuación vamos a mostrar un poco más cómo funciona
+Desde su version 2024.1 se incluye en InterSystems IRIS Data Platform. Que es una nueva y poderosa función que le permite agregar fácilmente funciones de búsqueda semántica e inteligencia artificial generativa a sus aplicaciones. Vector Search le permite consultar sus datos en función de la semántica o el significado de los datos en lugar de los datos en sí. Usando las funciones de IRIS podemos hacer un login con reconocimiento facial, a continuación se detalla todo el contenido expuesto.
 
 # Arquitectura
 
