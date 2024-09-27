@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "ExtencionChrome"
+		},
+		{
+			"name": "docker~face~recognition:USER",
+			"uri": "isfs://docker~face~recognition:user/"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502,
+		"objectscript.conn": {
+			"active": false
+		},
+		"liveServer.settings.multiRootWorkspaceName": "ExtencionChrome"
+	}
+}

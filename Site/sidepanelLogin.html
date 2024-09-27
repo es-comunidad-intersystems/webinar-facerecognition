@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TrakCare Face Recognition</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://127.0.0.1">
+    
+    <script src="scripts/face-api.min.js" defer></script>
+    <script src="scripts/scriptFaceLogin.js" defer></script>
+    <link rel="stylesheet" href="styleLogin.css">
+  </head>
+  <body>
+    <br/>
+    <div class="main">
+        <div id="divLogin">
+          <h3>Ingresa las credenciasles</h3>
+            <label for="first">
+                  Nombre de Usuario:
+            </label>
+            <input type="text" 
+                   id="first" 
+                   placeholder="Enter your Username" >
+
+            <label for="password">
+                  Clave:
+            </label>
+            <input type="text"
+                   id="password" 
+                   placeholder="Enter your Password" >
+
+            <video id="video" autoplay muted width="360" height="270" ></video>
+            <div class="wrap">
+              <button onclick=BuscarFace()>
+                Buscar
+              </button>
+              <button onclick=AgregarFace()>
+                Grabar
+              </button>
+            </div>
+            
+          </div>
+          
+    </div>    
+        
+    </body>
+</html>
